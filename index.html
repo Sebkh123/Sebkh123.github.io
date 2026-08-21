@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sebastian Kayada Hansen — Backend & Infrastructure Developer</title>
+<meta name="description" content="Portfolio of Sebastian Kayada Hansen, backend and infrastructure developer in Copenhagen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<nav class="topbar">
+  <div class="topbar-inner">
+    <span class="brand">SKH<span class="dot">.</span></span>
+    <div class="topbar-status">
+      <span class="status-led status-ok" aria-hidden="true"></span>
+      <span class="mono">open_to_work: true</span>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <p class="mono eyebrow">// copenhagen, dk</p>
+      <h1 class="hero-title">Sebastian<br>Kayada Hansen</h1>
+      <p class="hero-role">Backend &amp; Infrastructure Developer</p>
+      <p class="hero-sub">I build and operate systems, from REST APIs to Kubernetes clusters,
+        and I care about what happens after the pull request merges.
+        Datamatiker from KEA, MSc in Digital Innovation and Management from ITU Copenhagen.</p>
+      <div class="hero-links">
+        <a class="link-btn" href="https://github.com/Sebkh123" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="link-btn" href="https://linkedin.com/in/seb-kayada-hansen-80755916a" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="hero-panel mono" aria-hidden="true">
+      <div class="panel-row"><span>base</span><span>Copenhagen, DK</span></div>
+      <div class="panel-row"><span>citizenship</span><span>UK / DK</span></div>
+      <div class="panel-row"><span>education</span><span>KEA · ITU</span></div>
+      <div class="panel-row"><span>focus</span><span>backend, devops, data, sec</span></div>
+      <div class="panel-row"><span>status</span><span class="ok-text">available</span></div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section class="section" id="stack">
+    <h2 class="section-title"><span class="mono num">01</span> Stack</h2>
+    <div class="stack-grid">
+
+      <div class="stack-group">
+        <h3 class="mono group-label">backend</h3>
+        <ul class="tag-list">
+          <li>Java / Spring Boot</li>
+          <li>NestJS</li>
+          <li>Node.js / Express</li>
+          <li>TypeScript</li>
+          <li>REST API design</li>
+        </ul>
+      </div>
+
+      <div class="stack-group">
+        <h3 class="mono group-label">infra / cloud</h3>
+        <ul class="tag-list">
+          <li>Kubernetes</li>
+          <li>Terraform</li>
+          <li>Azure</li>
+          <li>Docker</li>
+          <li>GitHub Actions CI/CD</li>
+        </ul>
+      </div>
+
+      <div class="stack-group">
+        <h3 class="mono group-label">data</h3>
+        <ul class="tag-list">
+          <li>PostgreSQL</li>
+          <li>SQL</li>
+          <li>Data modelling</li>
+          <li>Prometheus / Grafana</li>
+        </ul>
+      </div>
+
+      <div class="stack-group">
+        <h3 class="mono group-label">security / governance</h3>
+        <ul class="tag-list">
+          <li>ISO 27001 / 27002</li>
+          <li>ISMS, risk &amp; SoA</li>
+          <li>Threat modelling</li>
+          <li>Access management</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE : SERVICE STATUS BOARD -->
+  <section class="section" id="experience">
+    <h2 class="section-title"><span class="mono num">02</span> Experience</h2>
+    <p class="section-note mono">// service_status_board</p>
+
+    <div class="board">
+
+      <article class="service-card">
+        <div class="service-head">
+          <span class="status-led status-ok"></span>
+          <h3>Bricks Performance</h3>
+          <span class="mono service-period">Feb – Apr 2026</span>
+        </div>
+        <p class="service-role">Full-stack Developer, Internship</p>
+        <p class="service-desc">Worked across a live production training platform for athletes and coaches:
+          backend endpoints and domain events in NestJS with TypeORM, frontend features in Angular,
+          and native mobile integration via Capacitor. Delivered through a real pull request and
+          code review workflow, including defending an event-driven design decision during review,
+          and debugged production issues directly in Chrome DevTools.</p>
+        <ul class="service-tags mono">
+          <li>NestJS</li><li>TypeScript</li><li>Angular</li><li>RxJS</li><li>TypeORM</li>
+        </ul>
+      </article>
+
+      <article class="service-card">
+        <div class="service-head">
+          <span class="status-led status-ok"></span>
+          <h3>Gardian Project</h3>
+          <span class="mono service-period">Academic MVP</span>
+        </div>
+        <p class="service-role">Full-stack Developer</p>
+        <p class="service-desc">Built a monitoring system for a company managing distributed parking
+          and payment terminals. Node.js/Express backend on PostgreSQL, containerised with Docker
+          and deployed to Azure on infrastructure provisioned with Terraform, running on Kubernetes
+          with horizontal pod autoscaling and persistent storage. Access control handled with
+          Azure SSO and RBAC.</p>
+        <ul class="service-tags mono">
+          <li>Node.js</li><li>PostgreSQL</li><li>Docker</li><li>Kubernetes</li><li>Terraform</li><li>Azure</li>
+        </ul>
+      </article>
+
+      <article class="service-card">
+        <div class="service-head">
+          <span class="status-led status-ok"></span>
+          <h3>DevOps Project</h3>
+          <span class="mono service-period">Group Project</span>
+        </div>
+        <p class="service-role">DevOps / Backend</p>
+        <p class="service-desc">Designed and operated a Go backend on PostgreSQL, deployed on a Linux VM
+          inside a Docker Compose stack. Built a fully automated CI/CD pipeline in GitHub Actions
+          with linting, testing and SonarCloud analysis, exposed health and readiness endpoints,
+          and set up Prometheus and Grafana to observe real request rate and latency in production.</p>
+        <ul class="service-tags mono">
+          <li>Go</li><li>PostgreSQL</li><li>GitHub Actions</li><li>Prometheus</li><li>Grafana</li><li>SonarCloud</li>
+        </ul>
+      </article>
+
+      <article class="service-card">
+        <div class="service-head">
+          <span class="status-led status-warn"></span>
+          <h3>Updropp</h3>
+          <span class="mono service-period">Aug – Dec 2023</span>
+        </div>
+        <p class="service-role">Junior Product Owner</p>
+        <p class="service-desc">Defined product vision through user stories and sprint planning,
+          and acted as the bridge between stakeholders and the development team, translating
+          business requirements into technical specifications for the application's feature set
+          and CRUD system.</p>
+        <ul class="service-tags mono">
+          <li>Sprint planning</li><li>User stories</li><li>Stakeholder management</li>
+        </ul>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <h2 class="section-title"><span class="mono num">03</span> Education</h2>
+    <div class="edu-list">
+      <div class="edu-row">
+        <div class="edu-what">
+          <h3>Datamatiker</h3>
+          <p class="edu-where">KEA, Erhvervsakademi København</p>
+        </div>
+        <p class="mono edu-when">2024 – 2026</p>
+      </div>
+      <div class="edu-row">
+        <div class="edu-what">
+          <h3>MSc Digital Innovation and Management</h3>
+          <p class="edu-where">IT University of Copenhagen</p>
+        </div>
+        <p class="mono edu-when">2020 – 2022</p>
+      </div>
+    </div>
+    <p class="edu-note">Coursework included Critical Big Data Management and a dedicated IT security
+      module covering ISO 27001/27002, ISMS, risk ownership, cryptography, defense in depth and
+      network security.</p>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <h2 class="section-title"><span class="mono num">04</span> Contact</h2>
+    <p class="contact-copy">Based in Copenhagen. Looking for backend, DevOps/cloud infrastructure,
+      data engineering or IT security roles.</p>
+    <div class="hero-links">
+      <a class="link-btn" href="https://github.com/Sebkh123" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="link-btn" href="https://linkedin.com/in/seb-kayada-hansen-80755916a" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer mono">
+  <span>Sebastian Kayada Hansen</span>
+  <span class="status-led status-ok"></span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
